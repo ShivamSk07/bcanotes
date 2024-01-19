@@ -1,228 +1,485 @@
 .navbar{
+
     display: block;
+
     text-decoration: none;
+
     align-items: center;
+
     border: px;
+
     background-color: rgba(0, 0, 0, 0.4);
+
     margin-right: 30px;
+
     margin-left: 20px;
+
     margin-top: 10px;
+
     padding: 0%;
-    overflow: hidden;
-    
 
-
-}
-.navbar :hover{
-    border: 3px;
-    border-color: white;
-}
-a{
-    float: left;
-    display: block;
-    margin: 12px;
-    text-decoration: none;
     overflow: hidden;
-    color: aliceblue;
-}
-li{
-    float: left;
-    color: white;
-    justify-content: space-evenly;
-    margin-right: 62px;
-    margin-top: 0%;
-    align-items: center;
-}
-ul{
-    float: left;
-    list-style: none;
-}
-body{
-    background-image: url("myd.gif");
-}
-a :hover{
-    color: red;
-    border: 3px;
-    border-color: white;
- 
-    
-}
-li :hover{
-    color: red;
+
    
+
+   
+
+    
+
+
+
+
+
 }
+
+.navbar :hover{
+
+    border: 3px;
+
+    border-color: white;
+
+}
+
+a{
+
+    float: left;
+
+    display: block;
+
+    margin: 12px;
+
+    text-decoration: none;
+
+    overflow: hidden;
+
+    color: aliceblue;
+
+}
+
+li{
+
+    float: left;
+
+    color: white;
+
+    justify-content: space-evenly;
+
+    margin-right: 62px;
+
+    margin-top: 0%;
+
+    align-items: center;
+
+    font-size :12px;
+
+    margin: 5px;
+
+}
+
+ul{
+
+    float: left;
+
+    list-style: none;
+
+}
+
+body{
+
+    bg color: black ;
+
+}
+
+a :hover{
+
+    color: red;
+
+    border: 3px;
+
+    border-color: white;
+
+ 
+
+    
+
+}
+
+li :hover{
+
+    color: red;
+
+   
+
+}
+
 input{
+
     background-color: rgba(245, 245, 245, 0.247);
+
     border-color: transparent;
 
+
+
 }
+
 input :hover{
+
     border-color: whitesmoke;
+
     color: beige;
+
     background-color: white;
+
 }
+
 .jio a {
+
     margin-left: 14px;
+
     align-items: center;
+
     top: 30%;
 
+
+
 }
+
 h1{
+
     font-weight: bold;
+
     font-size: 60px;
+
     margin-top: 10%;
+
     color: rgba(255, 255, 255, 0.664);
+
     margin-bottom: 8%;
+
     animation-name: head;
+
     animation-duration: 3s;
+
     
 
+
+
 }
+
 h1 :hover{
+
     color: red;
+
   
+
   
-}
-@keyframes head {
-    from {
-        transform: translateY(200%);
-    }
+
 }
 
+@keyframes head {
+
+    from {
+
+        transform: translateY(200%);
+
+    }
+
+}
+
+
+
     
+
     
+
+
 
 .box1{
+
     
-}
-.home{
-    display: flex;
-    justify-content: space-evenly;
-    animation-name: movie;
-    animation-duration: 3s;
-    
-}
-.house{
-    display: flex;
-    justify-content: space-evenly;
-    animation-name: movi;
-    animation-duration: 3s;
-    padding-bottom: 50px;
-    padding-top: 25px;
 
 }
-@keyframes movi{
-    from{
-        transform: translateY(200%);
-    }
+
+.home{
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    animation-name: movie;
+
+    animation-duration: 3s;
+
+    
+
 }
+
+.house{
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    animation-name: movi;
+
+    animation-duration: 3s;
+
+    padding-bottom: 50px;
+
+    padding-top: 25px;
+
+
+
+}
+
+@keyframes movi{
+
+    from{
+
+        transform: translateY(200%);
+
+    }
+
+}
+
+
+
 
 
 @keyframes movie{
+
     from{
+
         transform: translateY(200%);
+
     }
+
 }
+
 h2{
+
     font-size: 50px;
+
     font-weight: bold;
+
     background-color: transparent;
+
     animation-name: head2;
+
     animation-duration: 3s;
+
     justify-content: center;
+
     color: white;
+
 }
+
 @keyframes head2{
+
     from{
+
         transform: translateY(250%);
+
     }
+
 }
+
 h2 :hover{
+
     color: red;
+
 }
+
 .home :hover{
+
     color: red;
+
 }
+
 body{
+
         color: black;
+
         display: block;
+
         margin: 0px;
+
         margin-top:0px ;
+
         margin-right:0px ;
+
         margin-bottom: 0px;
+
         margin-left:0px ;
+
         background-color: black;
+
     }
+
     
 
-@media only screen and ( max-width : 600px){
+
+
+@media only screen and ( max-width : 900px){
+
+
 
 .navbar {
-    margin-top: 19px;
+
+    margin-top: 20px;
+
     background-color: rgba(26, 7, 80, 0.267);
 
+    align-items: center;
+
+
+
 }
+
 .navbar li {
+
     float: none;
+
     display: inline-block;
+
     margin-right: 20px;
 
 
-}
-h1{
-    font-size: 30px;
+
+
 
 }
-h2{
-    font-size: 20px;
-    margin-top: 18%;
+
+h1{
+
+    font-size: 30px;
+
+
+
 }
+
+h2{
+
+    font-size: 20px;
+
+    margin-top: 18%;
+
+}
+
 .home{
+
     display: block;
+
     background-color: transparent;
+
     margin-bottom: 1%;
 
 
-}
-.house{
-    display: block;
-    margin-top: 5%;
+
+
 
 }
+
+.house{
+
+    display: block;
+
+    margin-top: 5%;
+
+    justify-content: space-evenly;
+
+
+
+}
+
 .box{
+
     border: 1px rgba(0, 0, 0, 0);
+
     margin-top: 10px;
+
     margin-left: 13%;
+
 }
+
 .search input {
+
     
+
 }
+
 .search{
+
     width: 0%;
+
 }
+
 .mylogo{
+
     
+
 }
+
 h2{
+
     margin-bottom: 17%;
+
 }
+
 body {
-    background-image: url(myd.gif ) ;
+
+    color: black;
+
     background-position: 50%;
+
 }
+
+
 
 footer{
+
     border-top: 2px solid white ;
+
     box-shadow: 0px-2px 3px white;
+
     text-align: center;
+
     padding: 2rem;
+
     color: white;
+
     margin-top: 5%;
-}
-.house python {
-    margin-right: 25%;
-    margin-top: 15%;
-    
-}
 
 }
+
+.house python {
+
+    margin-right: 27%;
+
+    margin-top: 30%;
+
+    
+
+}
+
+h3 {
+
+    align-items: center ;
+
+    color: white;
+
+}
+
+.sk img {
+
+  display: block;
+
+  margin: auto;
+
+}
+
+
+
+
+
+    }
