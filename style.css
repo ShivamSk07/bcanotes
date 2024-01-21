@@ -174,15 +174,7 @@ h1 :hover{
 
 }
 
-@keyframes head {
 
-    from {
-
-        
-
-    }
-
-}
 
 
 
@@ -230,7 +222,7 @@ h1 :hover{
 
     from{
 
-        transform: translateY(200%);
+        
 
     }
 
@@ -244,7 +236,7 @@ h1 :hover{
 
     from{
 
-        transform: translateY(200%);
+        
 
     }
 
@@ -270,7 +262,7 @@ h2{
 
     from{
 
-        transform: translateY(250%);
+        
 
     }
 
